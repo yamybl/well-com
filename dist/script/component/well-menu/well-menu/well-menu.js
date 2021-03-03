@@ -1,5 +1,6 @@
 var wellMenu = {
 	name: "well-menu",
+	
 	props: {
 		fa: {
 			type: String,
@@ -23,6 +24,7 @@ var wellMenu = {
 			required: true
 		}
 	},
+	
 	computed: {
 		toggleBtnIconCls: function () {
 			switch ( this.fa )
@@ -112,6 +114,7 @@ var wellMenu = {
 			};
 		},
 	},
+	
 	template: '\
 		<div class="well-base-wrapper-inline well-ori-user-select--none well-com-menu__wrapper">\
 			<div class="well-base-wrapper-inline well-ori-margin--0 well-ori-font__size--small well-com-menu__toggle"\
