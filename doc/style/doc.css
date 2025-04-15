@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+/**
+ * sidebar
+ */
+ 
+.well-doc__sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 230px;
+	height: 100vh;
+	overflow: auto;
+}
+
+.well-doc__sidebar--mobile {
+	position: unset;
+	left: unset;
+	top: unset;
+}
+
+/**
+ * body
+ */
+
+.well-doc__body {
+	margin-left: 220px;
+	width: 75%;
+}
+
+.well-doc__body--mobile {
+	margin-left: 0;
+	width: 100%;
+}
+
+/**
+ * msg-list
+ */
+
+.well-doc__msg-list {
+	margin: 0;
+}
+
+.well-doc__msg-list-item {
+	margin: 0.5rem 0;
+}
+
+.well-doc__msg-list-item--important {
+	background: #ffe082;
+}
+
+/**
+ * link
+ */
+
+.well-doc__link {
+	color: #9575cd;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/**
+ * code
+ */
+
+.well-doc__code {
+	padding: 0.5rem !important;
+	white-space: pre-wrap;
+	letter-spacing: 1px;
+	font-family: Tahoma, Arial;
+	font-size: 0.875rem;
+}
+
+/**
+ * table
+ */
+ 
+.well-doc__table {
+	border-collapse: collapse;
+}
+
+.well-doc__table-th {
+	border: 1px solid #E0E0E0;
+	padding: 0.5rem 1rem;
+}
+
+.well-doc__table-th--value {
+	width: 7rem;
+}
+
+.well-doc__table-th--option {
+	width: 3rem;
+}
+
+.well-doc__table-td {
+	border: 1px solid #E0E0E0;
+	padding: 0.5rem 1rem;
+}
+
+.well-doc__table-td--name,
+.well-doc__table-td--type,
+.well-doc__table-td--option {
+	text-align: center;
+}
+
+.well-doc__table-td--title {
+	width: 3rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+.well-doc__table-td--event-name {
+	min-width: 6rem;
+}
+
+.well-doc__table-td--event-param {
+	min-width: 10rem;
+}
+
+/**
+ * header
+ */
+
+.well-doc__header--muted {
+	color: #90a4ae;
+}
+
+/**
+ * nav
+ */
+
+.well-doc__nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.well-doc__nav--single {
+	justify-content: flex-end;
+}
+
+/**
+ * well-box-intro
+ */
+ 
+.well-doc__well-box-intro-sample-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.well-doc__well-box-intro-sample-item {
+	height: 5rem;
+	line-height: 5rem;
+	text-align: center;
+}
+
+.well-doc__well-box-intro-sample-item--primary {
+	flex-grow: 3;
+}
+
+.well-doc__well-box-intro-sample-item--secondary {
+	flex-grow: 1;
+}
+
+/**
+ * well-card-inline-intro
+ */
+ 
+.well-doc__well-card-inline-intro-avatar-wrapper {
+	display: flex;
+	align-items: center;
+}
+ 
+.well-doc__well-card-inline-intro-avatar {
+	width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.125rem;
+}
+
+/**
+ * well-carousel-intro
+ */
+ 
+.well-doc__well-carousel-intro-item-wrapper {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
