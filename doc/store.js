@@ -2848,7 +2848,7 @@ var store = {
 									 "    @force-close-modal=\"forceCloseModal\"<br class='nocode' />" +
 									 "&gt;<br class='nocode' />" +
 									 "    &lt;template slot=\"body\"&gt;<br class='nocode' />" +
-									 "        &lt;div class=\"well-ori-text-align--c\"&gt;&lt;i class=\"fas fa-exclamation-circle\"&gt;&lt;/i&gt; {{ offline ? \"网络连接出现异常\" : \"\" }}&lt;/div&gt;<br class='nocode' />" +
+									 "        &lt;div class=\"well-ori-text-align--c\"&gt;&lt;i class=\"fa fas fa-exclamation-circle\"&gt;&lt;/i&gt; {{ offline ? \"网络连接出现异常\" : \"\" }}&lt;/div&gt;<br class='nocode' />" +
 									 "    &lt;/template&gt;<br class='nocode' />" +
 									 "&lt;/well-modal&gt;"
 						}
