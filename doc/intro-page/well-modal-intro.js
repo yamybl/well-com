@@ -76,7 +76,7 @@ var wellModalIntro = {
 							@force-close-modal="forceCloseModal();"\
 						>\
 							<template slot="body">\
-								<div class="well-ori-text-align--c"><i class="fas fa-exclamation-circle"></i> {{ offline ? \"网络连接出现异常\" : \"\" }}</div>\
+								<div class="well-ori-text-align--c"><i class="fa fas fa-exclamation-circle"></i> {{ offline ? \"网络连接出现异常\" : \"\" }}</div>\
 							</template>\
 						</well-modal>\
 					</template>\
