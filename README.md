@@ -10,7 +10,5 @@
          'v-on:event-name-zero'、 'v-slot:slot-name-abc' 这样来进行命名。
    
 3. 我们在编写组件中的 '插槽' 部分时，使用的是较新版本的 vue 中的语法，所以我们 !要求! 用户使用 v2.6.0+ 版本的 vue.js。
-   
-4. 用户可以通过查看 test 文件夹中的文件并运行 index.html 文件来简要了解组件的使用方法。
 
-5. 当前，我们正在进行组件文档的编写。
+4. 用户可以通过在本地运行 doc 文件夹下的 index.html 文件来阅读本组件库的文档，或者直接打开链接 https://yamybl.github.io/well-com/doc 对文档进行在线阅读。
